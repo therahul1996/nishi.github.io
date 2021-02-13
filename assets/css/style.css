@@ -1,3 +1,4 @@
+   
     html,
     body {
       position: relative;
@@ -11,7 +12,9 @@
       color: #000;
       margin: 0;
       padding: 0;
-      background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+      background-image:url(../images/heart.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
     }
     h1{
       text-align: center;
@@ -31,4 +34,13 @@
     .swiper-slide {
       background-position: center;
       background-size: cover;
+    }
+    .swiper-pagination-bullet-active{
+      background: red !important;
+      border: 5px solid #fff !important;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+      left: 0;
+      width: 100%;
+      bottom: -25px !important;
     }
